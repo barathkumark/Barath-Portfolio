@@ -89,10 +89,6 @@ body {
     font-size: 20px;
 }
 
-.w-80 {
-    width: 80%;
-}
-
 .logo-symbol {
     float: left;
     width: 42px;
@@ -173,7 +169,7 @@ body {
 
 .icon-style {
     width: 50px;
-    height: auto;
+    height: 50px;
 }
 
 #background {
@@ -257,20 +253,14 @@ body {
 }
 
 
-/*  */
-
-/* .dbox .icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #bc9864;
-    margin: 0 auto;
-    margin-bottom: 20px;
+@media (min-width: 1300px) {
+    .w-80 {
+        width: 80%;
+    }
 }
 
-.dbox .text {
-    width: 100%;
-} */
+
+/*  */
 
 .dbox {
     width: 100%;
@@ -317,8 +307,6 @@ body {
 .wrapper {
     width: 100%;
 }
-
-
 
 
 .contact-form-wrapper {
@@ -380,7 +368,3 @@ body {
     font-size: 14px;
     text-align: center;
 }
-
-/* .contact-form .submit-button-wrapper {
-    text-align: center;
-} */
